@@ -3,10 +3,10 @@
 
 ## Descrição do Projeto
 <p align="justify">
-  Desenvolver uma aplicação capaz de simular um campeonato de futebol,contendo 4 times
+  Desenvolver uma aplicação capaz de simular um campeonato de futebol,contendo 4 times.
 </p>
 
-<img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
+<img src="https://img.shields.io/static/v1?label=node&message=framework&color=blue&style=for-the-badge&logo=node"/>
 
 ## O que a plataforma é capaz de fazer :checkered_flag:
 
