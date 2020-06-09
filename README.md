@@ -3,9 +3,14 @@
 
 ## Tópicos
 [Descrição do projeto](#descricao)
+[O que a plataforma é capaz de fazer](#Oquefaz)
+[Pré-requisitos](#prerequisitos)
+[Como rodar a aplicação](#comorodar)
+[Comandos SQL](#comandossql)
+[Como utilizar o token](#token)
+[Rotas da aplicação](#rotas)
 
-
-## Descrição do Projeto name="descricao"
+## Descrição do Projeto
 <p align="justify">
   &nbsp;&nbsp;&nbsp;&nbsp;Desenvolver uma aplicação capaz de simular um campeonato de futebol,contendo 4 times.
 </p>
@@ -16,12 +21,12 @@
 
 ## O que a plataforma é capaz de fazer :checkered_flag:
 
-:trophy: Criar seus próprios times.<br>
-:trophy: Criar seus próprios jogos utilizando esses times.<br>
-:trophy: Acompanhar a tabela de classificação.<br>
+:trophy: <p name="Oquefaz">Criar seus próprios times.</p><br>
+:trophy: <p>Criar seus próprios jogos utilizando esses times.</p><br>
+:trophy: <p>Acompanhar a tabela de classificação.</p><br>
 
 ## Pré-requisitos
-<a href="https://nodejs.org/en/download/" rel="nofollow">
+<a href="https://nodejs.org/en/download/" rel="nofollow" name="prerequisitos">
   :warning: NodeJs
 </a>
 
@@ -53,7 +58,7 @@
 
 ## Como rodar a aplicação.
 
-<p>
+<p name="comorodar">
   1-Primeiro de tudo vamos baixar o docker rodando o comando a seguir.<br>
 </p>
 
@@ -161,7 +166,7 @@
 
 ## Comandos SQL
 
-<p>
+<p name="comandossql">
   Comando para criar tabela clubs.
 </p>
 
@@ -269,8 +274,15 @@
   </code>
 </pre>
 
+## Como utilizar o token.
+
+<p>
+  &nbsp;&nbsp;&nbsp;&nbsp; Para utilizar o token, você deve gerar a sessão. No insomnia você vai na aba "Auth" com o token copiado e seleciona a opção "Bearer Token", no campo "token" você coloca o mesmo.<br>
+  No postman é praticamente o mesmo método. Se precisar utilize a documentação do postman https://learning.postman.com/docs/postman/sending-api-requests/authorization/#bearer-token
+</p>
+
 ## Rotas da aplicação.
-<h1>OBS: Todas as rotas vão contar com um exemplo dos dados e formatos que devem ser enviados.</h1>
+<h1 name="rotas">OBS: Todas as rotas vão contar com um exemplo dos dados e formatos que devem ser enviados.</h1>
 <br>
 <br>
 
@@ -369,10 +381,3 @@
 <h1>
   OBS:Lembre-se de utilizar o token em todas as rotas com exceção da rota de criação de sessão e usuário.
 </h1>
-
-## Como utilizar o token.
-
-<p>
-  &nbsp;&nbsp;&nbsp;&nbsp; Para utilizar o token, você deve gerar a sessão. No insomnia você vai na aba "Auth" com o token copiado e seleciona a opção "Bearer Token", no campo "token" você coloca o mesmo.<br>
-  No postman é praticamente o mesmo método. Se precisar utilize a documentação do postman https://learning.postman.com/docs/postman/sending-api-requests/authorization/#bearer-token
-</p>
