@@ -10,9 +10,9 @@
 
 ## O que a plataforma é capaz de fazer :checkered_flag:
 
-:heavy_check_mark: - Criar seus próprios times.
-:heavy_check_mark: - Criar seus próprios jogos utilizando esses times.
-:heavy_check_mark: - Acompanhar a tabela de classificação.
+:heavy_check_mark: Criar seus próprios times.<br>
+:heavy_check_mark: Criar seus próprios jogos utilizando esses times.<br>
+:heavy_check_mark: Acompanhar a tabela de classificação.<br>
 
 ## Status do Projeto: Concluido :heavy_check_mark:
 
