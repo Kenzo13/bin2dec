@@ -21,9 +21,9 @@
 
 ## O que a plataforma é capaz de fazer :checkered_flag:
 
-:trophy: <p name="Oquefaz">Criar seus próprios times.</p><br>
-:trophy: <p>Criar seus próprios jogos utilizando esses times.</p><br>
-:trophy: <p>Acompanhar a tabela de classificação.</p><br>
+<p name="Oquefaz">:trophy: Criar seus próprios times.</p><br>
+<p>:trophy: Criar seus próprios jogos utilizando esses times.</p><br>
+<p>:trophy: Acompanhar a tabela de classificação.</p><br>
 
 ## Pré-requisitos
 <a href="https://nodejs.org/en/download/" rel="nofollow" name="prerequisitos">
