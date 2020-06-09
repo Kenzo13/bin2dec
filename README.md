@@ -266,6 +266,9 @@
 </pre>
 
 ## Rotas da aplicação.
+<h1>OBS: Todas as rotas vão contar com um exemplo dos dados e formatos que devem ser enviados.</h1>
+<br>
+<br>
 
 <p>
   &nbsp;&nbsp;&nbsp;&nbsp;Para utilizar todas as rotas é necessário ter seguido os passos anteriores de criação do container
@@ -278,17 +281,52 @@
   Essa rota vai criar um usuário para utilizar a aplicação.
 </p>
 
+<pre>
+  <code>
+    "
+      {
+        "name": "Raphael Kenzo",
+        "email": "raphaelkenzo2586@gmail.com",
+        "password": "123456"
+      }
+    "
+  </code>
+</pre>
+
 <p>
   &nbsp;&nbsp;&nbsp;&nbsp;A próxima rota que deve ser utilizada é a de criação de sessão
   <b>routes.post('/sessions', SessionController.create);</b><br>
   Essa rota vai autenticar o usuário e senha, para gerar o token e acessar as demais rotas.
 </p>
 
+<pre>
+  <code>
+    "
+      {
+        "email": "raphaelkenzo2586@gmail.com",
+        "password": "123456"
+      }
+    "
+  </code>
+</pre>
+
 <p>
   &nbsp;&nbsp;&nbsp;&nbsp;A próxima rota que deve ser utilizada é a de criação dos clubs
   <b>routes.post('/clubs', middlewares.ensureAuthenticated, ClubController.create);</b><br>
   Essa rota vai criar os clubs que vão disputar o campeonato.
 </p>
+
+<pre>
+  <code>
+    "
+      {
+        "name": "Palmeiras",
+        "yearOfFoundation": "25/01/1930",
+        "stateOfClub": "São Paulo"
+      }
+    "
+  </code>
+</pre>
 
 <p>
   &nbsp;&nbsp;&nbsp;&nbsp;Para verificar os dados do seu time e listar os mesmos, utilize a rota
@@ -301,6 +339,19 @@
   Essa rota vai criar os jogos entre os times que você cadastrou.
 </p>
 
+<pre>
+  <code>
+    "
+      {
+        "teamA": "São Paulo",
+        "teamB": "Santos",
+        "golsFromTeamA": 1,
+        "golsFromTeamB": 0
+      }
+    "
+  </code>
+</pre>
+
 <p>
   &nbsp;&nbsp;&nbsp;&nbsp;Para verificar os dados do seu jogo, utilize a rota
   <b>routes.get('/games', middlewares.ensureAuthenticated, GameController.index);</b><br>
@@ -310,3 +361,5 @@
   &nbsp;&nbsp;&nbsp;&nbsp;Para verificar os dados do campeonato, utilize a rota
   <b>routes.get('/table', middlewares.ensureAuthenticated, TableController.index);</b><br>
 </p>
+
+<h1>OBS:Lembre-se de utilizar o token em todas as rotas com exceção da rota de criação de sessão e usuário</h1>
