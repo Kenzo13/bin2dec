@@ -362,4 +362,13 @@
   <b>routes.get('/table', middlewares.ensureAuthenticated, TableController.index);</b><br>
 </p>
 
-<h1>OBS:Lembre-se de utilizar o token em todas as rotas com exceção da rota de criação de sessão e usuário</h1>
+<h1>
+  OBS:Lembre-se de utilizar o token em todas as rotas com exceção da rota de criação de sessão e usuário.
+</h1>
+
+## Como utilizar o token.
+
+<p>
+  &nbsp;&nbsp;&nbsp;&nbsp; Para utilizar o token, você deve gerar a sessão. No insomnia você vai na aba "Auth" com o token copiado e seleciona a opção "Bearer Token", no campo "token" você coloca o mesmo.<br>
+  No postman é praticamente o mesmo método. Se precisar utilize a documentação do postman https://learning.postman.com/docs/postman/sending-api-requests/authorization/#bearer-token
+</p>
