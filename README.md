@@ -5,8 +5,8 @@
 [Descrição do projeto](#descricao)
 
 
-## Descrição do Projeto
-<p align="justify" name="descricao">
+## Descrição do Projeto name="descricao"
+<p align="justify">
   &nbsp;&nbsp;&nbsp;&nbsp;Desenvolver uma aplicação capaz de simular um campeonato de futebol,contendo 4 times.
 </p>
 
