@@ -3,7 +3,7 @@
 
 ## Descrição do Projeto
 <p align="justify">
-  Desenvolver uma aplicação capaz de simular um campeonato de futebol,contendo 4 times.
+  &nbsp;&nbsp;Desenvolver uma aplicação capaz de simular um campeonato de futebol,contendo 4 times.
 </p>
 
 ## Status do Projeto: Concluido :heavy_check_mark:
@@ -268,45 +268,45 @@
 ## Rotas da aplicação.
 
 <p>
-  Para utilizar todas as rotas é necessário ter seguido os passos anteriores de criação do container
+  &nbsp;&nbsp;Para utilizar todas as rotas é necessário ter seguido os passos anteriores de criação do container
   docker e a criação das tabelas no banco de dados.
 </p>
 
 <p>
-  A primeira rota que você deve executar é a de cadastro de usuário
+  &nbsp;&nbsp;A primeira rota que você deve executar é a de cadastro de usuário
   <b>routes.post('/users', UserController.create);</b><br> 
   Essa rota vai criar um usuário para utilizar a aplicação.
 </p>
 
 <p>
-  A próxima rota que deve ser utilizada é a de criação de sessão
+  &nbsp;&nbsp;A próxima rota que deve ser utilizada é a de criação de sessão
   <b>routes.post('/sessions', SessionController.create);</b><br>
   Essa rota vai autenticar o usuário e senha, para gerar o token e acessar as demais rotas.
 </p>
 
 <p>
-  A próxima rota que deve ser utilizada é a de criação dos clubs
+  &nbsp;&nbsp;A próxima rota que deve ser utilizada é a de criação dos clubs
   <b>routes.post('/clubs', middlewares.ensureAuthenticated, ClubController.create);</b><br>
   Essa rota vai criar os clubs que vão disputar o campeonato.
 </p>
 
 <p>
-  Para verificar os dados do seu time e listar os mesmos, utilize a rota
+  &nbsp;&nbsp;Para verificar os dados do seu time e listar os mesmos, utilize a rota
   <b>routes.get('/clubs', middlewares.ensureAuthenticated, ClubController.index);</b><br>
 </p>
 
 <p>
-  Agora vamos utilizar a rota de criação de jogos
+  &nbsp;&nbsp;Agora vamos utilizar a rota de criação de jogos
   <b>routes.post('/games', middlewares.ensureAuthenticated, GameController.create);</b><br>
   Essa rota vai criar os jogos entre os times que você cadastrou.
 </p>
 
 <p>
-  Para verificar os dados do seu jogo, utilize a rota
+  &nbsp;&nbsp;Para verificar os dados do seu jogo, utilize a rota
   <b>routes.get('/games', middlewares.ensureAuthenticated, GameController.index);</b><br>
 </p>
 
 <p>
-  Para verificar os dados do campeonato, utilize a rota
+  &nbsp;&nbsp;Para verificar os dados do campeonato, utilize a rota
   <b>routes.get('/table', middlewares.ensureAuthenticated, TableController.index);</b><br>
 </p>
