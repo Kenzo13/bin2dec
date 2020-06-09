@@ -6,13 +6,13 @@
   Desenvolver uma aplicação capaz de simular um campeonato de futebol,contendo 4 times.
 </p>
 
-<img src="https://img.shields.io/static/v1?label=node&message=framework&color=blue&style=for-the-badge&logo=NODE"/>
+<!-- <img src="https://img.shields.io/static/v1?label=node&message=framework&color=blue&style=for-the-badge&logo=NODE"/> -->
 
 ## O que a plataforma é capaz de fazer :checkered_flag:
 
-[x] - Criar seus próprios times.
-[x] - Criar seus próprios jogos utilizando esses times.
-[x] - Acompanhar a tabela de classificação.
+:heavy_check_mark: - Criar seus próprios times.
+:heavy_check_mark: - Criar seus próprios jogos utilizando esses times.
+:heavy_check_mark: - Acompanhar a tabela de classificação.
 
 ## Status do Projeto: Concluido :heavy_check_mark:
 
