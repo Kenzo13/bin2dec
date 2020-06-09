@@ -14,12 +14,14 @@
 :heavy_check_mark: Criar seus próprios jogos utilizando esses times.<br>
 :heavy_check_mark: Acompanhar a tabela de classificação.<br>
 
-## Status do Projeto: Concluido :heavy_check_mark:
+## Status do Projeto: Concluido
 
 ## Pré-requisitos :warning:
 <a href="https://nodejs.org/en/download/" rel="nofollow">
-  NodeJs
+:heavy_check_mark:  NodeJs
 </a>
+
+<br>
 
 <a href="https://classic.yarnpkg.com/en/docs/install/#debian-stable" rel="nofollow">
   Yarn
