@@ -275,11 +275,38 @@
 <p>
   A primeira rota que você deve executar é a de cadastro de usuário
   <b>routes.post('/users', UserController.create);</b><br> 
-  Essa rota vai criar um usuário para utilizar a aplicação, logo após ter o token gerado.
+  Essa rota vai criar um usuário para utilizar a aplicação.
 </p>
 
 <p>
   A próxima rota que deve ser utilizada é a de criação de sessão
   <b>routes.post('/sessions', SessionController.create);</b><br>
   Essa rota vai autenticar o usuário e senha, para gerar o token e acessar as demais rotas.
+</p>
+
+<p>
+  A próxima rota que deve ser utilizada é a de criação dos clubs
+  <b>routes.post('/clubs', middlewares.ensureAuthenticated, ClubController.create);</b><br>
+  Essa rota vai criar os clubs que vão disputar o campeonato.
+</p>
+
+<p>
+  Para verificar os dados do seu time e listar os mesmos, utilize a rota
+  <b>routes.get('/clubs', middlewares.ensureAuthenticated, ClubController.index);</b><br>
+</p>
+
+<p>
+  Agora vamos utilizar a rota de criação de jogos
+  <b>routes.post('/games', middlewares.ensureAuthenticated, GameController.create);</b><br>
+  Essa rota vai criar os jogos entre os times que você cadastrou.
+</p>
+
+<p>
+  Para verificar os dados do seu jogo, utilize a rota
+  <b>routes.get('/games', middlewares.ensureAuthenticated, GameController.index);</b><br>
+</p>
+
+<p>
+  Para verificar os dados do campeonato, utilize a rota
+  <b>routes.get('/table', middlewares.ensureAuthenticated, TableController.index);</b><br>
 </p>
