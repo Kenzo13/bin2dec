@@ -273,13 +273,13 @@
 </p>
 
 <p>
-  A primeira rota que você deve executar é a de cadastro de usuário<br>
+  A primeira rota que você deve executar é a de cadastro de usuário
   <b>routes.post('/users', UserController.create);</b><br> 
   Essa rota vai criar um usuário para utilizar a aplicação, logo após ter o token gerado.
 </p>
 
 <p>
-  A próxima rota que deve ser utilizada é a de criação de sessão<br>
+  A próxima rota que deve ser utilizada é a de criação de sessão
   <b>routes.post('/sessions', SessionController.create);</b><br>
   Essa rota vai autenticar o usuário e senha, para gerar o token e acessar as demais rotas.
 </p>
