@@ -112,7 +112,7 @@
 </pre>
 
 <p>
-  7- Deslogar do mysql command line e bash é só escrever exit.
+  7- Deslogar do mysql command line e bash é só escrever exit.<br>
 </p>
 
 <p>
@@ -264,3 +264,22 @@
     "SELECT * FROM users;"
   </code>
 </pre>
+
+## Rotas da aplicação.
+
+<p>
+  Para utilizar todas as rotas é necessário ter seguido os passos anteriores de criação do container
+  docker e a criação das tabelas no banco de dados.
+</p>
+
+<p>
+  A primeira rota que você deve executar é a de cadastro de usuário<br>
+  <b>routes.post('/users', UserController.create);</b><br> 
+  Essa rota vai criar um usuário para utilizar a aplicação, logo após ter o token gerado.
+</p>
+
+<p>
+  A próxima rota que deve ser utilizada é a de criação de sessão<br>
+  <b>routes.post('/sessions', SessionController.create);</b><br>
+  Essa rota vai autenticar o usuário e senha, para gerar o token e acessar as demais rotas.
+</p>
