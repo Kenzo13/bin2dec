@@ -2,13 +2,13 @@
 <h1 align="center">Vaga Backend Developer JR - AIRFLUENCERS</h1>
 
 ## Tópicos
-[Descrição do projeto](#descricao)
-[O que a plataforma é capaz de fazer](#Oquefaz)
-[Pré-requisitos](#prerequisitos)
-[Como rodar a aplicação](#comorodar)
-[Comandos SQL](#comandossql)
-[Como utilizar o token](#token)
-[Rotas da aplicação](#rotas)
+[Descrição do projeto](#descricao)<br>
+[O que a plataforma é capaz de fazer](#Oquefaz)<br>
+[Pré-requisitos](#prerequisitos)<br>
+[Como rodar a aplicação](#comorodar)<br>
+[Comandos SQL](#comandossql)<br>
+[Como utilizar o token](#token)<br>
+[Rotas da aplicação](#rotas)<br>
 
 ## Descrição do Projeto
 <p align="justify">
