@@ -14,30 +14,38 @@
 :heavy_check_mark: Criar seus próprios jogos utilizando esses times.<br>
 :heavy_check_mark: Acompanhar a tabela de classificação.<br>
 
-## Status do Projeto: Concluido
+## Status do Projeto: Concluido :heavy_check_mark:
 
 ## Pré-requisitos :warning:
 <a href="https://nodejs.org/en/download/" rel="nofollow">
-:heavy_check_mark:  NodeJs
+  :warning: NodeJs
 </a>
 
 <br>
 
 <a href="https://classic.yarnpkg.com/en/docs/install/#debian-stable" rel="nofollow">
-  Yarn
+  :warning: Yarn
 </a>
+
+<br>
 
 <a href="https://dev.mysql.com/doc/workbench/en/wb-installing.html" rel="nofollow">
-  Mysql Workbench
+  :warning: Mysql Workbench
 </a>
+
+<br>
 
 <a href="https://insomnia.rest/download/" rel="nofollow">
-  Insomnia (system 64bit)
+  :warning: Insomnia (system 64bit)
 </a>
 
+<br>
+
 <a href="https://www.postman.com/downloads/" rel="nofollow">
-  Postman (system 64bit or 32bit)
+  :warning: Postman (system 64bit or 32bit)
 </a>
+
+<br>
 
 ## Como rodar a aplicação.
 
