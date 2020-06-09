@@ -16,7 +16,7 @@
 
 ## Status do Projeto: Concluido :heavy_check_mark:
 
-## Pré-requisitos :warning:
+## Pré-requisitos
 <a href="https://nodejs.org/en/download/" rel="nofollow">
   :warning: NodeJs
 </a>
@@ -50,34 +50,34 @@
 ## Como rodar a aplicação.
 
 <p>
-  1-Primeiro de tudo vamos baixar o docker rodando o comando a seguir.
+  1-Primeiro de tudo vamos baixar o docker rodando o comando a seguir.<br>
   sudo docker pull mysql
 </p>
 
 <p>
-  2- Logo após isso vamos criar a nossa imagem e container.
+  2- Logo após isso vamos criar a nossa imagem e container.<br>
   sudo docker run --name airfluencers_mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 -d mysql
 </p>
 
 <p>
-  3- Listar todos os containers da máquina.
+  3- Listar todos os containers da máquina.<br>
   sudo docker ps -a
 </p>
 
 <p>
-  4- Agora vamos entrar no modo bash
+  4- Agora vamos entrar no modo bash<br>
   sudo docker exec -it airfluencers_mysql /bin/bash
 </p>
 
 <p>
   5- Logo após entrar em modo bash, vamos rodar o seguinte comando para entrar no mysql command line.
   Lembrando que as informação são -u(nome de usuário no mysql, no caso root) e -p(senha escolhida na criação)
-  do container.
+  do container.<br>
   mysql -uroot -pdocker
 </p>
 
 <p>
-  6- Entrando no modo mysql, vamos poder criar a database rodando o seguinte comando.
+  6- Entrando no modo mysql, vamos poder criar a database rodando o seguinte comando.<br>
   create database airfluencers;
 </p>
 
