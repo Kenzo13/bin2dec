@@ -6,7 +6,7 @@
   Desenvolver uma aplicação capaz de simular um campeonato de futebol,contendo 4 times.
 </p>
 
-<img src="https://img.shields.io/static/v1?label=node&message=framework&color=blue&style=for-the-badge&logo=node"/>
+<img src="https://img.shields.io/static/v1?label=node&message=framework&color=blue&style=for-the-badge&logo=NODE"/>
 
 ## O que a plataforma é capaz de fazer :checkered_flag:
 
