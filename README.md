@@ -10,9 +10,9 @@
 
 ## O que a plataforma é capaz de fazer :checkered_flag:
 
-:heavy_check_mark: Criar seus próprios times.<br>
-:heavy_check_mark: Criar seus próprios jogos utilizando esses times.<br>
-:heavy_check_mark: Acompanhar a tabela de classificação.<br>
+:trophy: Criar seus próprios times.<br>
+:trophy: Criar seus próprios jogos utilizando esses times.<br>
+:trophy: Acompanhar a tabela de classificação.<br>
 
 ## Status do Projeto: Concluido :heavy_check_mark:
 
@@ -51,35 +51,65 @@
 
 <p>
   1-Primeiro de tudo vamos baixar o docker rodando o comando a seguir.<br>
-  sudo docker pull mysql
 </p>
+
+<pre>
+  <code>
+    "sudo docker pull mysql"
+  </code>
+</pre>
 
 <p>
   2- Logo após isso vamos criar a nossa imagem e container.<br>
-  sudo docker run --name airfluencers_mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 -d mysql
 </p>
+
+<pre>
+  <code>
+    "sudo docker run --name airfluencers_mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 -d mysql"
+  </code>
+</pre>
 
 <p>
   3- Listar todos os containers da máquina.<br>
-  sudo docker ps -a
 </p>
+
+<pre>
+  <code>
+    "sudo docker ps -a"
+  </code>
+</pre>
 
 <p>
   4- Agora vamos entrar no modo bash<br>
-  sudo docker exec -it airfluencers_mysql /bin/bash
 </p>
+
+<pre>
+  <code>
+    "sudo docker exec -it airfluencers_mysql /bin/bash"
+  </code>
+</pre>
 
 <p>
   5- Logo após entrar em modo bash, vamos rodar o seguinte comando para entrar no mysql command line.
   Lembrando que as informação são -u(nome de usuário no mysql, no caso root) e -p(senha escolhida na criação)
   do container.<br>
-  mysql -uroot -pdocker
 </p>
+
+<pre>
+  <code>
+    "mysql -uroot -pdocker"
+  </code>
+</pre>
 
 <p>
   6- Entrando no modo mysql, vamos poder criar a database rodando o seguinte comando.<br>
-  create database airfluencers;
 </p>
+
+<pre>
+  <code>
+    "create database airfluencers;"
+  </code>
+</pre>
 
 <p>
   7- Deslogar do mysql command line e bash é só escrever exit.
